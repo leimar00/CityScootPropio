@@ -10,7 +10,7 @@ public class Employee extends User{
     public Employee() {
     }
 
-    public Employee(int id, String name, String lastName, String phone, String email, String password, boolean status, RolEnum rol) {
+    public Employee(Integer id, String name, String lastName, String phone, String email, String password, boolean status, RolEnum rol) {
         super(id, name, lastName, phone, email, password, status);
         this.rol = rol;
     }
